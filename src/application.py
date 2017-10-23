@@ -1,5 +1,4 @@
 #!flask/bin/python
-#encoding:utf-8
 from flask import Flask
 from flaskrun import flaskrun
 
@@ -8,7 +7,7 @@ application = Flask(__name__)
 
 @application.route('/', methods=['GET'])
 def get():
-    return '{"Output":"Hello World.ccth==长城天和"}'
+    return '{"Output":"Hello World.ccth==chang cheng tian he"}'
 
 
 @application.route('/', methods=['POST'])
