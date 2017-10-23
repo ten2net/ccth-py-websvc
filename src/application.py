@@ -1,5 +1,5 @@
-#encoding:utf-8
 #!flask/bin/python
+#encoding:utf-8
 from flask import Flask
 from flaskrun import flaskrun
 
