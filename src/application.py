@@ -1,3 +1,4 @@
+#encoding:utf-8
 #!flask/bin/python
 from flask import Flask
 from flaskrun import flaskrun
