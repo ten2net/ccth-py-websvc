@@ -7,7 +7,7 @@ application = Flask(__name__)
 
 @application.route('/', methods=['GET'])
 def get():
-    return '{"Output":"Hello World"}'
+    return '{"Output":"Hello World.ccth==长城天和"}'
 
 
 @application.route('/', methods=['POST'])
